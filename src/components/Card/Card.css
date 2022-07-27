@@ -1,0 +1,59 @@
+.entrou, .saiu {
+  display: flex;
+  width: 560px;
+  height: 90px;
+  background: #F8F9FA;
+  border-radius: 4px;
+  margin-bottom: 35px;
+  padding-left: 18px;
+}
+
+.divInfo {
+  width: 300px;
+  margin-right: 41px;
+}
+
+.description {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.valores {
+  display: flex;
+}
+
+.botaoRmv {
+    margin-top: 17px;
+  margin-left: 33px;
+  width: 22px;
+  height: 22px;
+  background-image: url("../fotos/ButtonTrash.png");
+  border: none;
+}
+
+.entrou{
+  border-left: 2px #03B898 solid;
+}
+
+.saiu{
+  border-left: 2px red solid;
+}
+
+/* .imgLixo {
+  width: 100%;
+  height: 100%;
+} */
+
+@media (min-width:320px) and (max-width: 425px){
+  .entrou, .saiu {
+    display: flex;
+    width: 280px;
+    height: 90px;
+    background: #F8F9FA;
+    border-radius: 4px;
+    margin-bottom: 35px;
+    padding-left: 18px;
+  }
+}

@@ -1,0 +1,20 @@
+.estrutura{
+    display: flex;
+    margin-left: 130px;
+    gap: 90px;
+}
+
+.estruturaDoPagamento{
+    margin-right: 60px;
+    width: max-content;
+
+}
+
+@media (min-width:320px) and (max-width: 425px){
+    .estrutura{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 90px;
+    }
+}
