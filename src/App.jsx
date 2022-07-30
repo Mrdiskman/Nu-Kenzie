@@ -4,13 +4,19 @@ import Form from "./components/Form";
 import Historico from "./components/historico";
 import { useState } from "react";
 import Saldo from "./components/Saldo";
+import LandingPage from "./components/LadingPage";
 
 function App() {
   const [listTransactions, setlistTransactions] = useState([]);
+  const [isLoged, setIsLoged] = useState(false);
 
-  return (
+  return isLoged === false ? (
+    <section className="corpo">
+      <LandingPage setIsLoged={setIsLoged} />
+    </section>
+  ) : (
     <section className="App">
-      <Header />\
+      <Header setIsLoged={setIsLoged}/>
       <div className="estrutura">
         <div className="estruturaDoPagamento">
           <Form
@@ -19,7 +25,7 @@ function App() {
           />
           <Saldo listTransactions={listTransactions} />
         </div>
-        <Historico 
+        <Historico
           listTransactions={listTransactions}
           setlistTransactions={setlistTransactions}
         />

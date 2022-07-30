@@ -37,6 +37,13 @@ h1 {
   margin-top: 0.9%;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.botaoInicio:hover{
+  transition: 0.5s;
+  background: #fd377e;
+  color: #FFFFFF;
 }
 
 @media (min-width:320px) and (max-width: 425px){

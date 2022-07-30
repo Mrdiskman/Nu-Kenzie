@@ -91,6 +91,13 @@ label {
   border-radius: 8px;
 }
 
+.botaoEnviarValor:hover{
+  transition: 0.5s;
+  color: #fd377e;
+  background-color: rgb(202, 206, 206);
+  cursor: pointer;
+}
+
 @media (min-width:320px) and (max-width: 425px){
   .formularioDePagamentos {
     display: flex;

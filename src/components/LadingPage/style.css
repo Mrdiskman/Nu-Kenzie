@@ -1,0 +1,55 @@
+.tudo{
+    background-color: #212529;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escrito{
+    margin-right: 46px;
+}
+
+.fotoInicio{
+    width: 593px;
+    height: 593px
+}
+
+.tiluloDois{
+    width: 347px;
+    height: 144px;
+    font-size: 38px;
+    color: #FFFFFF;
+}
+
+.paragrafo{
+    width: 260px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.titulo{
+    color: #FD377E;
+}
+
+.spanDoTitulo{
+    color: #FFFFFF;
+}
+
+.botaoDoInicio{
+    width: 241px;
+    height: 48px;
+    background-color: #FD377E;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Inter";
+    cursor: pointer;
+}
+
+.botaoDoInicio:hover{
+    transition: 0.5s;
+    background-color: #FFFFFF;
+    color: #FD377E;
+}
