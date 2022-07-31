@@ -1,55 +1,106 @@
-.tudo{
+.tudo {
+  background-color: #212529;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.escrito {
+  margin-right: 46px;
+}
+
+.fotoInicio {
+  width: 593px;
+  height: 593px;
+}
+
+.tiluloDois {
+  width: 347px;
+  height: 144px;
+  font-size: 38px;
+  color: #ffffff;
+}
+
+.paragrafo {
+  width: 260px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.titulo {
+  color: #fd377e;
+}
+
+.spanDoTitulo {
+  color: #ffffff;
+}
+
+.botaoDoInicio {
+  width: 241px;
+  height: 48px;
+  background-color: #fd377e;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Inter";
+  cursor: pointer;
+}
+
+.botaoDoInicio:hover {
+  transition: 0.5s;
+  background-color: #ffffff;
+  color: #fd377e;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .tudo {
     background-color: #212529;
-    height: 100vh;
+    height: 100%;
     width: 100%;
+  }
+
+  .fotoInicio{
+    display: none;
+  }
+
+  .escrito {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    margin-right: 0px;
+  }
 
-.escrito{
-    margin-right: 46px;
-}
+ 
 
-.fotoInicio{
-    width: 593px;
-    height: 593px
-}
-
-.tiluloDois{
-    width: 347px;
-    height: 144px;
-    font-size: 38px;
-    color: #FFFFFF;
-}
-
-.paragrafo{
-    width: 260px;
-    font-size: 16px;
-    color: #FFFFFF;
-}
-
-.titulo{
-    color: #FD377E;
-}
-
-.spanDoTitulo{
-    color: #FFFFFF;
-}
-
-.botaoDoInicio{
+  .botaoDoInicio {
     width: 241px;
     height: 48px;
-    background-color: #FD377E;
-    color: #FFFFFF;
+    background-color: #fd377e;
+    color: #ffffff;
     font-weight: 500;
     font-size: 16px;
     font-family: "Inter";
     cursor: pointer;
-}
+    border:  none;
+    margin-top: 40%;
+    margin-bottom: 20%;
+  }
 
-.botaoDoInicio:hover{
-    transition: 0.5s;
-    background-color: #FFFFFF;
-    color: #FD377E;
+  .tiluloDois{
+    margin-top: 50%;
+    margin-left: 10%;
+    width: 290px;
+    font-size: 34px;
+  }
+
+  .paragrafo {
+    width: 260px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 5%;
+  }
+
 }
